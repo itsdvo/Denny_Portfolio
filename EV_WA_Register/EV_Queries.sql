@@ -1,6 +1,6 @@
 -- Data collected from https://catalog.data.gov/dataset/electric-vehicle-population-data
 -- Electric Vehicle Population Data
--- This dataset shows the Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) that are currently registered through Washington State Department of Licensing (DOL).
+-- This dataset shows the Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) that are currently registered through the Washington State Department of Licensing (DOL).
 
 /****** Script for SelectTopNRows command from SSMS  ******/
 SELECT TOP (1000) [Date]
@@ -65,9 +65,11 @@ ORDER BY
 
 -- Output:	Shows the majority registered in WA stays in WA
 --			The following EV registered in WA at other states goes from CA, VA, MD, TX
---			CA has the highest state population and EVs, makes sense they would get EV out of state owners to visit
+--			CA has the highest state population and EVs makes sense they would get EV out-of-state owners to visit
 
--- Show the counties in WA that has the highest amount of EV using CTE_RECENT_EV for up to date
+-- Show the counties in WA that have the highest amount of EVs using CTE_RECENT_EV for up to date
+-- WHERE clause search state column for 'WA'
+-- ORDER BY clause on EV total DESC to see highest to lowest 
 
 WITH CTE_RECENT_EV AS(
 SELECT
@@ -95,12 +97,13 @@ ORDER BY
 
 -- Output:	Shows counties based around Seattle contributes to the highest volume of EV count
 --			Due to being around a major city
---			Percent conversion shows at most almost 4% of Vehicles in King County is Electric
+--			Percent conversion shows at most almost 4% of Vehicles in King County are Electric
 
--- Show how King county EV totals changed over time, FROM 2017 to 2022
--- SUM Non EV and EV with their own aliases
--- Created Percent_EV alias for the percentage of EV within the county by year, multiplied by 100 and rounded it to the 2nd decimal point
--- Excluded year 2023
+-- Show how King County EV totals changed over time, FROM 2017 to 2022
+-- SUM Non-EV and EV with their own aliases
+-- Created Percent_EV alias for the percentage of EV within the county by year, multiplied by 100, and rounded it to the 2nd decimal point
+-- the Excluded year 2023
+-- GROUP BY year since we are monitoring throughout the year
 
 SELECT
     YEAR(date) AS Year,
@@ -118,5 +121,5 @@ GROUP BY
 ORDER BY
     YEAR(date) ASC;
 
--- Output:	EV owners in King County are growing, as percentage shows conversion increasing at a steady rate
---			Total EV from 2017 to 2023 we see an increase of 40,000 cars
+-- Output:	EV owners in King County are growing, as the percentage shows conversion increasing at a steady rate
+--		Total EV from 2017 to 2023 we see an increase of 40,000 cars
