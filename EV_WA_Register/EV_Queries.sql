@@ -16,8 +16,10 @@ SELECT TOP (1000) [Date]
 FROM 
 	[EV_Project].[dbo].[Electric_Vehicle_Population_Siz$];
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 -- Show recent records of County, State, Primary Vehicle Type, and electric_vehicle totals
--- In the WHERE select recent dates by using a subquery and MAX function on date
+-- In the WHERE select recent dates by using a subquery and MAX function on the date
 -- ORDER BY states in ascending order followed by counties in ascending order
 
 SELECT
@@ -35,6 +37,8 @@ WHERE
 ORDER BY
 	State,
 	County;
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- Show the total EV registered in WA residing per state
 -- Created a CTE using the previous query but including all columns with *, as I may need to refer back to it
@@ -66,6 +70,8 @@ ORDER BY
 -- Output:	Shows the majority registered in WA stays in WA
 --			The following EV registered in WA at other states goes from CA, VA, MD, TX
 --			CA has the highest state population and EVs makes sense they would get EV out-of-state owners to visit
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- Show the counties in WA that have the highest amount of EVs using CTE_RECENT_EV for up to date
 -- WHERE clause search state column for 'WA'
@@ -99,6 +105,8 @@ ORDER BY
 --			Due to being around a major city
 --			Percent conversion shows at most almost 4% of Vehicles in King County are Electric
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
 -- Show how King County EV totals changed over time, FROM 2017 to 2022
 -- SUM Non-EV and EV with their own aliases
 -- Created Percent_EV alias for the percentage of EV within the county by year, multiplied by 100, and rounded it to the 2nd decimal point
