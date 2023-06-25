@@ -273,7 +273,7 @@ ORDER BY
 
 
 -- QUESTION 4:
-		--	What is the fourth highest Electric Vehicle Population county that registered through the Washington State Department of Licensing (DOL) in recent years
+		--	What is the fourth highest Electric Vehicle Population county that registered through the Washington State Department of Licensing (DOL) as of recent
 
 WITH DENSE_CTE AS
 (
