@@ -6,6 +6,11 @@ Contains 5 queries
 *  Query 1:
 +  Look for all data with the most recent values that are registered in WA
 
+1. Item 1
+2. Item 2
+3. Item 3
+    + Item 3a
+
 
 Question 1:  Which counties had the highest amount of electric vehicles? Also, form a CTE from the previous query.
 Question 2:  What are the top 5 counties that have the highest totals in EV, and calculate the percentage they are in within the county EV population?
