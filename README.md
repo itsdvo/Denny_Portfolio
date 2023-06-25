@@ -4,7 +4,7 @@
 
 Contains 5 queries
 *  Query 1:
-  +  Look for all data with the most recent values that are registered in WA
++  Look for all data with the most recent values that are registered in WA
 
 
 Question 1:  Which counties had the highest amount of electric vehicles? Also, form a CTE from the previous query.
