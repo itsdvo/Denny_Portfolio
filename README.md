@@ -6,9 +6,10 @@ Contains 5 queries
 *  Query 1:
 +  Look for all data with the most recent values that are registered in WA
 
-1. Item 1
-2. Item 2
-3. Item 3
+1. Query 1:
+    + Look for all data with the most recent values that are registered in WA
+3. Item 2
+4. Item 3
     + Item 3a
 
 
