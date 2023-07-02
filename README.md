@@ -16,3 +16,17 @@ Contains 5 queries
     + What is the fourth highest Electric Vehicle Population county that registered through the Washington State Department of Licensing (DOL) recently?
 
 
+## Project 2 - Python -  Movies_Correlation
+
+Perform various codes for correlation analysis
+
+* Setting up:
+    + imported various packages
+* Cleaning:
+    + After viewing data, check for nulls and drop nulls
+* Sorting:
+    + Perform various codes to check for the highest gross, votes, and budget
+* Scatterplots:
+    + Visualize several scatterplots to check for correlation
+* Heatmap:
+    + Created correlation matrix and then visualizing with heatmap
