@@ -1,6 +1,6 @@
 # Denny_Portfolio
 
-## Project 1 - SQL -  Electric Vehicles WA Data Analytics
+## Project 1 - SQL -  Electric_Vehicles_WA_Data_Analytics
 
 Contains 5 queries
 
