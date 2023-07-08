@@ -13,7 +13,7 @@ Contains 5 queries
 * Question 3:
     + How has the EV Population for King, Snohomish, and Pierce counties changed? Also, what is the percentage of EVs in their respective county population?
 * Question 4:
-    + What is the fourth highest Electric Vehicle Population county that registered through the Washington State Department of Licensing (DOL) recently?
+    + What is the fourth highest Electric Vehicle Population county registered through the Washington State Department of Licensing (DOL) recently?
 
 
 ## Project 2 - Python -  Movies_Correlation
@@ -29,4 +29,22 @@ Perform various codes for correlation analysis
 * Scatterplots:
     + Visualize several scatterplots to check for correlation
 * Heatmap:
-    + Created correlation matrix and then visualizing with heatmap
+    + Created correlation matrix and then visualized with heatmap
+
+
+## Project 3 - Power BI -  Data_Professional_Survey_Breakdown
+
+Visualize data professional survey collected by Alex Freberg
+
+* Visualization 1:
+    + Treemap of countries that respondents reside
+* Visualization 2:
+    + Cluster bar chart of job titles by average salary
+* Visualization 3:
+    + Count of distinct survey respondents and their average age
+* Visualization 4:
+    + Stacked column chart for a breakdown of languages favored by job title
+* Visualization 5:
+    + Donut chart of difficulty to break into the data industry
+* Visualization 6:
+    + Gauges for how happy respondents were happy with
