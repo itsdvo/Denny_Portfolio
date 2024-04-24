@@ -52,10 +52,10 @@ Visualize data professional survey collected by Alex Freberg
 ## Project 4 - SQL & Draw.io -  Inventory Management Systems for ARPGs
 
 * Draw.io:
-    + Constructed a conceptual and logical model for the database design with proper cardinalities and relationships
+    + Developed a comprehensive database design incorporating both conceptual and logical models, detailing cardinalities and inter-table relationships to optimize data integrity and access
 * SQL Server Management Studio:
-    + Wrote code to create the tables with PK and FK constraints with proper data types
-    + Generate manual sample data into tables
-    + Develop several queries that would identify items for players
+    + Authored SQL scripts to construct database tables, ensuring proper implementation of primary (PK) and foreign key (FK) constraints along with suitable data types to support system requirements
+    + Populated tables with manually generated sample data to facilitate testing and demonstration of database functionality
+    + Crafted several SQL queries to enable efficient item identification and retrieval for player inventories, enhancing user experience and system responsiveness
  * PPT:
-    + Slides for presentation 
+    + Created a polished presentation to outline project scope, design rationale, and functionality, effectively communicating the system's capabilities and architecture to stakeholders
