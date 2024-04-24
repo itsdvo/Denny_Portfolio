@@ -48,3 +48,14 @@ Visualize data professional survey collected by Alex Freberg
     + Donut chart of difficulty to break into the data industry
 * Visualization 6:
     + Gauges for how happy respondents were happy with
+
+## Project 4 - SQL & Draw.io -  Inventory Management Systems for ARPGs
+
+* Draw.io:
+    + Constructed a conceptual and logical model for the database design with proper cardinalities and relationships
+* SQL Server Management Studio:
+    + Wrote code to create the tables with PK and FK constraints with proper data types
+    + Generate manual sample data into tables
+    + Develop several queries that would identify items for players
+ * PPT:
+    + Slides for presentation 
