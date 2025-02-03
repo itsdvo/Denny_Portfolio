@@ -16,21 +16,23 @@ Contains 5 queries
     + What is the fourth highest Electric Vehicle Population county registered through the Washington State Department of Licensing (DOL) recently?
 
 
-## Project 2 - Python -  Movies_Correlation
+## Project 2 - Python -  Vehicle Insurance Claim Fraud Detection
 
 Perform various codes for correlation analysis
 
 * Setting up:
-    + imported various packages
+    + Imported necessary libraries (tidyverse, caret, ggplot2, randomForest, tensorflow).
 * Cleaning:
-    + After viewing data, check for nulls and drop nulls
-* Sorting:
-    + Perform various codes to check for the highest gross, votes, and budget
-* Scatterplots:
-    + Visualize several scatterplots to check for correlation
-* Heatmap:
-    + Created correlation matrix and then visualized with heatmap
-
+    + Encoded categorical variables for model training.
+* Exploratory Data Analysis (EDA):
+    + Visualized distributions of key variables using histograms and boxplots.
+    + Identified correlations between variables using a heatmap.
+* Model Training & Evaluation:
+    + Implemented multiple machine learning models: Logistics Regression, Decision Tree, and Random Forest.
+    + Evaluated models using accuracy, ROC-AUC, and confusion matrix.
+* Cross-Validation & Optimization:
+    + Applied K-Fold Cross-Validation to improve model performance.
+    + Tuned hyperparameters for better accuracy.
 
 ## Project 3 - Power BI -  Data_Professional_Survey_Breakdown
 
