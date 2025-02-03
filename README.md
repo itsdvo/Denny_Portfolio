@@ -13,15 +13,15 @@ Contains multiple steps and evaluations to classify vehicle images into accident
   + Performed preliminary checks for data consistency.
 
 * Model Training & Evaluation:
-  + **Architecture:** Built a custom CNN with convolutional, pooling, and fully connected layers.  
-  + **Training:**  
+  + Architecture: Built a custom CNN with convolutional, pooling, and fully connected layers.  
+  + Training:
     - Dataset split: 70% training, 30% testing.  
     - Loss function: CrossEntropyLoss; Optimizer: Adam (LR: 0.001).  
-  + **Evaluation:**  
+  + Evaluation:
     - Metrics: Precision, recall, F1-score, confusion matrix, and ROC curve.  
     - Achieved an AUC of 0.92, demonstrating strong performance.
 
-* **Performance Optimization:**  
+* Performance Optimization:
   + Reduced overfitting by monitoring training and validation loss trends.  
   + Improved model generalization with early stopping and learning rate adjustments.
 
