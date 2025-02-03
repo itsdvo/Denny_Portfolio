@@ -7,11 +7,9 @@ Contains multiple steps and evaluations to classify vehicle images into accident
 * Data Preparation:  
   + Collected and labeled images into two categories: "Accident" and "No Accident."
   + Applied transformations (resize: 224x224, normalization, and tensor conversion) for consistent input.
-
 * Exploratory Data Analysis (EDA):
   + Visualized sample images and inspected class distribution.  
   + Performed preliminary checks for data consistency.
-
 * Model Training & Evaluation:
   + Architecture: Built a custom CNN with convolutional, pooling, and fully connected layers.  
   + Training:
@@ -20,7 +18,6 @@ Contains multiple steps and evaluations to classify vehicle images into accident
   + Evaluation:
     - Metrics: Precision, recall, F1-score, confusion matrix, and ROC curve.  
     - Achieved an AUC of 0.92, demonstrating strong performance.
-
 * Performance Optimization:
   + Reduced overfitting by monitoring training and validation loss trends.  
   + Improved model generalization with early stopping and learning rate adjustments.
