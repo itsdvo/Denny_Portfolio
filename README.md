@@ -1,19 +1,30 @@
 # Denny_Portfolio
 
-## Project 1 - SQL -  Electric_Vehicles_WA_Data_Analytics
+## Project 1 - Vehicle Accident Detection with CNN
 
-Contains 5 queries
+Contains multiple steps and evaluations to classify vehicle images into accident-related categories.
 
-* Initial query:
-    + Look for all data with the most recent values that are registered in WA
-* Question 1:
-    + Which counties had the highest amount of electric vehicles? Also, form a CTE from the previous query.
-* Question 2:
-    + What are the top 5 counties that have the highest totals in EV, and calculate the percentage they are in within the county EV population?
-* Question 3:
-    + How has the EV Population for King, Snohomish, and Pierce counties changed? Also, what is the percentage of EVs in their respective county population?
-* Question 4:
-    + What is the fourth highest Electric Vehicle Population county registered through the Washington State Department of Licensing (DOL) recently?
+* Data Preparation:  
+  + Collected and labeled images into two categories: "Accident" and "No Accident."
+  + Applied transformations (resize: 224x224, normalization, and tensor conversion) for consistent input.
+
+* Exploratory Data Analysis (EDA):
+  + Visualized sample images and inspected class distribution.  
+  + Performed preliminary checks for data consistency.
+
+* Model Training & Evaluation:
+  + **Architecture:** Built a custom CNN with convolutional, pooling, and fully connected layers.  
+  + **Training:**  
+    - Dataset split: 70% training, 30% testing.  
+    - Loss function: CrossEntropyLoss; Optimizer: Adam (LR: 0.001).  
+  + **Evaluation:**  
+    - Metrics: Precision, recall, F1-score, confusion matrix, and ROC curve.  
+    - Achieved an AUC of 0.92, demonstrating strong performance.
+
+* **Performance Optimization:**  
+  + Reduced overfitting by monitoring training and validation loss trends.  
+  + Improved model generalization with early stopping and learning rate adjustments.
+
 
 
 ## Project 2 - Python -  Vehicle Insurance Claim Fraud Detection
