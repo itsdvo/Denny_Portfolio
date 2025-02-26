@@ -1,6 +1,6 @@
 # Denny_Portfolio
 
-## Project 1 - Vehicle Accident Detection with CNN
+## Project 1 - Python - Vehicle Accident Detection with CNN
 
 Contains multiple steps and evaluations to classify vehicle images into accident-related categories.
 
